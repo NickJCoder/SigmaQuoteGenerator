@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-DBmU8dKz/F8RSkx6mRvr0qFrT3AehXZJp5GrtHZPCCHK9gZbMuh1mKYqQrFqH4F8sDHbzV1GpDI4JYJ9V5CM4w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Sigma Quote Generator</title>
     <title>Sigma Quote Generator</title>
 </head>
 <body>
@@ -13,7 +11,7 @@
 
 
     <div class="container">
-        <video src="bg.mp4" autoplay loop playsinline muted></video>
+        <video src="bg.mp4" autoplay loop playsinline></video>
 
         <header>
             <h1>Sigma <span> Quote Generator</span></h1>
@@ -24,9 +22,8 @@
                 Click Generate to get a Sigma quote
             </p>
             <button id="generateBtn" onclick="generateQuote()">Generate Quote</button>
-        </div>
-        <div class="mute-button" id="muteBtn" onclick="toggleMute()">
-            <i id="muteIcon" class="fas fa-volume-mute"></i>
+            
+            
         </div>
      </div>
         <script src="script.js"></script>
