@@ -37,6 +37,11 @@ function generateQuote() {
 }
 
 const video = document.querySelector("video");
-video.volume = 0.2;
+video.volume = 0.1;
 
+function toggleMute() {
+    const video = document.getElementById("backgroundVideo");
+    const muteIcon = document.getElementById("muteIcon");
+
+    video.muted = !video.muted;
 
