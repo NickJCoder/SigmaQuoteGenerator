@@ -94,3 +94,15 @@ button {
 button:hover {
     background-color: #a62424;
 }
+
+.mute-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+#muteIcon {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+}
