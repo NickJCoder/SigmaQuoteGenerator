@@ -37,6 +37,6 @@ function generateQuote() {
 }
 
 const video = document.querySelector("video");
-video.volume = 0.2;
+video.volume = 0.08;
 
 
